@@ -70,7 +70,7 @@ a:hover { color: var(--navy); }
   text-decoration: none;
   color: var(--navy);
 }
-.mark {
+.brand .mark {
   width: 2.8rem;
   height: 2.2rem;
   border: 1px solid var(--bronze);
@@ -84,6 +84,7 @@ a:hover { color: var(--navy); }
   letter-spacing: 0;
   line-height: 1;
   text-align: center;
+  text-transform: none;
   padding: 0;
 }
 .brand strong {
