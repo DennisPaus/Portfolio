@@ -75,11 +75,16 @@ a:hover { color: var(--navy); }
   height: 2.2rem;
   border: 1px solid var(--bronze);
   color: var(--navy);
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--serif);
   font-size: 0.68rem;
-  letter-spacing: 0.04em;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+  text-align: center;
+  padding: 0;
 }
 .brand strong {
   display: block;
