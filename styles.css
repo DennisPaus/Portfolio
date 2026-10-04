@@ -123,11 +123,16 @@ nav a:hover { color: var(--bronze-deep); }
   padding: 0.7rem;
   box-shadow: var(--shadow);
 }
+.portrait-frame {
+  overflow: hidden;
+}
 .portrait-frame img {
   width: 100%;
   aspect-ratio: 1;
   object-fit: cover;
-  object-position: center 18%;
+  object-position: center 30%;
+  transform: scale(1.65);
+  transform-origin: center 35%;
 }
 .portrait-caption {
   margin: 0.7rem 0.15rem 0.15rem;
